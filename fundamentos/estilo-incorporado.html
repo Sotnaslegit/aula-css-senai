@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Incorporado</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #eee;
+        }
+        header{
+            margin: 10px 20px 5px 25px; /* topo, direita, baixo, esquerda */
+            background: #ccc;
+        }
+        main{
+            background: #aaa;
+            padding: 20px 10px; /* topo e baixo, direita e esquerda */
+        }
+        p{
+            color: #f33;
+        }
+        #primeiro-paragrafo{
+            color: #0ff;
+        }
+        .paragrafo-padrao-classe{
+            color: #FF0;
+        }
+        footer{
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título Principal</h1>
+    </header>
+    <main>
+    <h2>Título Secundário</h2>
+    <p id="primeiro-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque suscipit optio officia dolorum? Repudiandae nulla dolor iusto consectetur consequatur unde tempora hic iste numquam totam, facilis commodi ratione sint minus.</p>
+    <section>
+            <article>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum at reiciendis tempore quasi, quo ut consequatur odio possimus! At corrupti ex reiciendis commodi voluptas blanditiis cumque quo porro deleniti atque!</p>
+                <p class="paragrafo-padrao-classe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum at reiciendis tempore quasi, quo ut consequatur odio possimus! At corrupti ex reiciendis commodi voluptas blanditiis cumque quo porro deleniti atque!</p>
+                <p class="paragrafo-padrao-classe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum at reiciendis tempore quasi, quo ut consequatur odio possimus! At corrupti ex reiciendis commodi voluptas blanditiis cumque quo porro deleniti atque!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>&copy; Todos os direitos reservados.</address>
+    </footer>
+</body>
+</html>
