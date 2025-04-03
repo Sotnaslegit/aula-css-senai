@@ -45,6 +45,7 @@ h3{
     text-align: center;
     font-size: 48px;
     font-weight: bold;
+    color: #160647;
 }
 
 a{
@@ -93,6 +94,7 @@ nav ul li{
 }
 
 /* cta */
+
 .cta{
     padding: 208px 0;
 }
@@ -133,19 +135,18 @@ nav ul li{
 }
 
 .brands .container img{
-    margin: 121px 117px 155px 0px;
+    margin: 121px 117px 0 0;
 }
 
 /* about us */
 
+.about-us h3{
+    margin: 155px 0 100px;
+}
+
 .about-us .container{
     display: flex;
     margin-top: 100px;
-}
-
-.about-us h3{
-    color: #160647;
-    font-size: 48px;
 }
 
 .about-us .about-us-description h4{
@@ -170,9 +171,7 @@ nav ul li{
 /* our features */
 
 .our-features h3{
-    margin: 172px 0 148px;
-    color: #160647;
-    font-size: 48px;
+    margin: 172px 0 100px;
 }
 
 .our-features .container{
@@ -188,6 +187,7 @@ nav ul li{
     border-radius: 5px;
     margin-bottom: 30px;
     display: flex;
+    padding: 10px;
 }
 
 .our-features .container .card .icon-card{
@@ -218,18 +218,16 @@ nav ul li{
 
 /* testmonials */
 
+.testmonials h3{
+    margin: 219px 0 100px;
+}
+
 .testmonials .container{
     width: 821px;
     display: flex;
     margin: auto;
     justify-content: space-between;
 
-}
-
-.testmonials h3{
-    width: 498px;
-    text-align: center;
-    margin: 100px auto;
 }
 
 .testmonials .testmonial-card{
@@ -259,6 +257,10 @@ nav ul li{
 }
 
 /* works */
+
+.works h3{
+    margin: 150px 0 103px;
+}
 
 .works .container{
     display: flex;
@@ -301,8 +303,87 @@ nav ul li{
 
 /* ready */
 
+.ready h3{
+    margin-top: 177px;
+    margin-bottom: 30px;
+}
+
+.ready .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .ready fieldset{
     display: flex;
     justify-content: space-between;
     border: none;
+    gap: 35px;
+}
+
+.ready a{
+    margin: 33px 0 53px;
+}
+
+.ready p{
+    color: #160647;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* footer */
+
+footer .container{
+    display: flex;
+    border-top: #6C6C6C solid 1px;
+    margin-top: 255px;
+    padding: 105px 0 55px;
+    justify-content: space-around;
+}
+
+footer h5{
+    color: #313131;
+    margin-bottom: 27px;
+}
+
+footer .container a{
+    margin-bottom: 13px;
+    display: block;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer .logo{
+    color: #313131;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+footer .copyright{
+    font-size: 10px;
+    font-weight: 700;
+    margin-right: 28px;
+    color: #313131;
+}
+
+footer .container-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 175px;
+}
+
+footer .container-bottom .social-media{
+    display: flex;
+}
+
+footer .container-bottom .social-media img{
+    margin-right: 14px;
+}
+
+footer .container-bottom .politics{
+    display: flex;
+    align-items: center;
 }
